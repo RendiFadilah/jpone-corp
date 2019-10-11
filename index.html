@@ -15,7 +15,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
-      
+        
             <h3><i class="fas fa-cart-plus text-dark mr-2"></i></h3>
 
         <a class="navbar-brand font-weight-bold" href="#">JPONE MALL</a>
@@ -39,12 +39,12 @@
             </li>
           </ul>
         </div>
-    
+    </div>
       </nav>
 
       <div class="row mt-5 no-gutters">
         <div class="col-md-2 bg-light">
-            <ul class="list-group p-2 pt-5">
+            <ul class="list-group p-2 pt-5 list-group-flush">
                 <li class="list-group-item active bg-primary"><i class="fas fa-list"></i> Kategori Produk</li>
                 <li class="list-group-item"><i class="fas fa-angle-right"></i>  Aksesories Elektronik</li>
                 <li class="list-group-item"><i class="fas fa-angle-right"></i>  Fashion Pria</li>
@@ -84,7 +84,7 @@
                 </a>
             </div>
             <h4 class="text-center font-weight-bold m-4">PRODUK TERBARU</h4>
-            <div class="row mx-auto justify-content-center">
+            <div class="row mx-auto">
                 <div class="card mr-2 ml-2 mb-2" style="width: 16rem;">
                     <img src="img/asusrog.png" class="card-img-top" alt="...">
                     <div class="card-body bg-light">
@@ -141,12 +141,12 @@
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i><br>
-                                    <a href="#" class="btn btn-primary">Detail</a>
+                                    <a href="#" class="btn btn-primary" data-target="#produk4" data-toggle="modal">Detail</a>
                                     <a href="#" class="btn btn-danger">Rp 98.000.000</a>
                                 </div>
                             </div>
             </div>
-            <div class="row mx-auto mt-5 justify-content-center">
+            <div class="row mx-auto mt-5">
                     <div class="card mr-2 ml-2 mb-2" style="width: 16rem;">
                         <img src="img/asusrog.png" class="card-img-top" alt="...">
                         <div class="card-body bg-light">
@@ -158,7 +158,7 @@
                             <i class="fas fa-star text-primary"></i>
                             <i class="fas fa-star text-primary"></i>
                             <i class="fas fa-star text-primary"></i><br>
-                            <a href="#" class="btn btn-primary">Detail</a>
+                            <a href="#" class="btn btn-primary" data-target="#produk5" data-toggle="modal">Detail</a>
                             <a href="#" class="btn btn-danger">Rp 98.000.000</a>
                         </div>
                     </div>
@@ -173,7 +173,7 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i><br>
-                                <a href="#" class="btn btn-primary">Detail</a>
+                                <a href="#" class="btn btn-primary" data-target="#produk6" data-toggle="modal">Detail</a>
                                 <a href="#" class="btn btn-danger">Rp 14.000.000</a>
                             </div>
                         </div>
@@ -188,7 +188,7 @@
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i><br>
-                                    <a href="#" class="btn btn-primary">Detail</a>
+                                    <a href="#" class="btn btn-primary" data-target="#produk7" data-toggle="modal">Detail</a>
                                     <a href="#" class="btn btn-danger">Rp 98.000.000</a>
                                 </div>
                             </div>
@@ -203,7 +203,7 @@
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i><br>
-                                        <a href="#" class="btn btn-primary">Detail</a>
+                                        <a href="#" class="btn btn-primary" data-target="#produk8" data-toggle="modal">Detail</a>
                                         <a href="#" class="btn btn-danger">Rp 98.000.000</a>
                                     </div>
                                 </div>
@@ -263,10 +263,72 @@
                               <button type="button" class="btn btn-primary" data-dismiss="modal">Beli</button>
                               <button type="button" class="btn btn-danger">Kembali</button>
                             </div>
-                          
+                          </div>
                         </div>
                       </div>
-                       <div class="modal fade" id="produk2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        </div>
+      </div>
+                <div class="modal fade" id="produk2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Detail Produk</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <img src="img/iphone11.png" width="300px;" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                  <table class="table table-borderless">
+                                    <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Laptop Asus ROG</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Merek / Type</th>
+                                      <td>ROG ( Republic Of Gamers )</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Pembayaran</th>
+                                      <td>Langsung</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Rating Produk</th>
+                                      <td>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>Stok Produk</th>
+                                      <td>120 Pcs</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Harga</th>
+                                      <td>Rp.98.000.000</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Beli</button>
+                              <button type="button" class="btn btn-danger">Kembali</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        </div>
+      </div>
+                <div class="modal fade" id="produk3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
@@ -321,84 +383,314 @@
                               <button type="button" class="btn btn-primary" data-dismiss="modal">Beli</button>
                               <button type="button" class="btn btn-danger">Kembali</button>
                             </div>
-                          
+                          </div>
                         </div>
                       </div>
         </div>
       </div>
-
-
-      
-         <div class="modal fade" id="produk3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Detail Produk</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="row">
-                <div class="col-md-6">
-                  <img src="img/asusrog.png" width="400px;" alt="">
-                </div>
-                <div class="col-md-6">
-                  <table class="table table-borderless">
-                    <tr>
-                      <th>Nama Produk</th>
-                      <td>Laptop Asus ROG</td>
-                    </tr>
-                    <tr>
-                      <th>Merek / Type</th>
-                      <td>ROG ( Republic Of Gamers )</td>
-                    </tr>
-                    <tr>
-                      <th>Pembayaran</th>
-                      <td>Langsung</td>
-                    </tr>
-                    <tr>
-                      <th>Rating Produk</th>
-                      <td>
-                        <i class="fas fa-star text-primary"></i>
-                        <i class="fas fa-star text-primary"></i>
-                        <i class="fas fa-star text-primary"></i>
-                        <i class="fas fa-star text-primary"></i>
-                        <i class="fas fa-star text-primary"></i>
-                        <i class="fas fa-star text-primary"></i>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th>Stok Produk</th>
-                      <td>120 Pcs</td>
-                    </tr>
-                    <tr>
-                      <th>Harga</th>
-                      <td>Rp.98.000.000</td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Beli</button>
-              <button type="button" class="btn btn-danger">Kembali</button>
-            </div>
-          
+                <div class="modal fade" id="produk4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Detail Produk</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <img src="img/asusrog.png" width="400px;" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                  <table class="table table-borderless">
+                                    <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Laptop Asus ROG</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Merek / Type</th>
+                                      <td>ROG ( Republic Of Gamers )</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Pembayaran</th>
+                                      <td>Langsung</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Rating Produk</th>
+                                      <td>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>Stok Produk</th>
+                                      <td>120 Pcs</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Harga</th>
+                                      <td>Rp.98.000.000</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Beli</button>
+                              <button type="button" class="btn btn-danger">Kembali</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
         </div>
       </div>
+                <div class="modal fade" id="produk5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Detail Produk</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <img src="img/asusrog.png" width="400px;" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                  <table class="table table-borderless">
+                                    <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Laptop Asus ROG</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Merek / Type</th>
+                                      <td>ROG ( Republic Of Gamers )</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Pembayaran</th>
+                                      <td>Langsung</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Rating Produk</th>
+                                      <td>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>Stok Produk</th>
+                                      <td>120 Pcs</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Harga</th>
+                                      <td>Rp.98.000.000</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Beli</button>
+                              <button type="button" class="btn btn-danger">Kembali</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        </div>
+      </div>
+                <div class="modal fade" id="produk6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Detail Produk</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <img src="img/asusrog.png" width="400px;" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                  <table class="table table-borderless">
+                                    <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Laptop Asus ROG</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Merek / Type</th>
+                                      <td>ROG ( Republic Of Gamers )</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Pembayaran</th>
+                                      <td>Langsung</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Rating Produk</th>
+                                      <td>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>Stok Produk</th>
+                                      <td>120 Pcs</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Harga</th>
+                                      <td>Rp.98.000.000</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Beli</button>
+                              <button type="button" class="btn btn-danger">Kembali</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        </div>
+      </div>
+                <div class="modal fade" id="produk7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Detail Produk</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <img src="img/asusrog.png" width="400px;" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                  <table class="table table-borderless">
+                                    <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Laptop Asus ROG</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Merek / Type</th>
+                                      <td>ROG ( Republic Of Gamers )</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Pembayaran</th>
+                                      <td>Langsung</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Rating Produk</th>
+                                      <td>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>Stok Produk</th>
+                                      <td>120 Pcs</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Harga</th>
+                                      <td>Rp.98.000.000</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Beli</button>
+                              <button type="button" class="btn btn-danger">Kembali</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        </div>
+      </div>
+                <div class="modal fade" id="produk8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Detail Produk</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <img src="img/asusrog.png" width="400px;" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                  <table class="table table-borderless">
+                                    <tr>
+                                      <th>Nama Produk</th>
+                                      <td>Laptop Asus ROG</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Merek / Type</th>
+                                      <td>ROG ( Republic Of Gamers )</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Pembayaran</th>
+                                      <td>Langsung</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Rating Produk</th>
+                                      <td>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>Stok Produk</th>
+                                      <td>120 Pcs</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Harga</th>
+                                      <td>Rp.98.000.000</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Beli</button>
+                              <button type="button" class="btn btn-danger">Kembali</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        </div>
+      </div>
+                
 
-
-      
-
-
-
-
-      
-      
-
-
-      <footer class="bg-dark text-white p-5 mt-5">
+      <footer class="bg-dark text-white p-5">
         <div class="row">
             <div class="col-md-3">
               <h5>LAYANAN PELANGGAN</h5>
